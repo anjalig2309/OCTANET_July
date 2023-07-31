@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page Using Html CSS </title>
+	<link rel="stylesheet" href="internanjali.css">
+	<style type="text/css">
+		*{padding:0;margin:0;box-sizing:border-box;}
+		header{
+			width: 100%;
+			height: 100vh;
+			background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+			  url('D:/Intern_crowd_AnjaliGHutke/tips-for-buying-a-college-laptop-image.png');
+			background-size:cover;
+			font-family: sans-serif;
+		}
+		
+		nav{
+			width: 100%;
+			height: 100px;
+			color:black;
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			background-color:grey;
+		}
+		.logo{
+			font-size:2em;
+			letter-spacing:2px;
+			color:lightblue;
+			background-color:black;
+			font-family: sans-serif;
+		}
+		.menu a{
+			text-decoration: none;
+			color:black;
+			padding: 20px 20px;
+			font-size: 20px;
+			position: relative;
+
+		}
+		.menu a: before{ 
+			content: '';
+			position:relative;
+			top:0;
+			left:0;
+			width:0%;
+			height:100%;
+			border-bottom: 5px solid black;
+			transition: 0.4s linear;
+		}
+		.menu a: hover {
+		width:90%;
+		position: absolute;
+		background-color:white;
+		color: black;
+
+	    }
+		.register a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+			font-size: 20px;
+			background:white;
+			border-radius:6px;
+			transition: 0.4s;
+		}
+		.register a:hover{
+			background: transparent;
+			border: 1px solid black;
+		}
+		.h-text{
+			color: black;
+			max-width: 650px;
+			position: absolute;
+			top:50%;
+			left: 35%;
+			transform: translate(-50%,-50%);
+			text-align:left;
+		}
+		.h-text span{
+			letter-spacing: 3px;
+		}
+		.h-text h1{
+			font-size:4em;	
+		}
+		
+	</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">
+	OctaNet
+</div>	
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">About Us</a>
+				<a href="#">Internships</a>		
+				<a href="#">Career</a>
+				<a href="#">Contact Us</a>		
+			</div>
+				<div class="register">
+			<a href="#">Register</a>
+</div>
+</nav>
+<section class="h-text">
+<span>
+<h1>
+“Your Dream 
+ Our Destiny.”
+</h1>
+</span>
+</section>
+<br>
+</header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
